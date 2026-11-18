@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BookHub online bookstore">
+
+    <title>Categories | BookHub</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container nav-wrap">
+
+            <a class="brand" href="index.html">
+                Book<span>Hub</span>.
+            </a>
+
+            <button class="menu-toggle" aria-label="Toggle menu" id="menuToggle">
+                ☰
+            </button>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="books.html">Books</a>
+                <a href="categories.html">Categories</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="login.html" class="text-link">Login</a>
+
+                <a href="cart.html" class="cart-link">
+                    Cart
+                    <span class="cart-count" data-cart-count>0</span>
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="page-main">
+        <div class="container">
+
+            <div class="page-heading">
+                <h1>Book categories</h1>
+                <p>Six shelves, more than a hundred reasons to read.</p>
+            </div>
+
+            <!-- Categories Grid -->
+            <div class="category-grid" id="allCategories"></div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div>
+                    <a class="brand" href="index.html">BookHub.</a>
+                    <p>Your next favourite book is just a page away.</p>
+                </div>
+
+                <div>
+                    <strong>Explore</strong>
+                    <p>
+                        <a href="books.html">All books</a> ·
+                        <a href="categories.html">Categories</a> ·
+                        <a href="contact.html">Contact</a>
+                    </p>
+                </div>
+
+                <div>
+                    <strong>Account</strong>
+                    <p>
+                        <a href="login.html">Login</a> ·
+                        <a href="register.html">Create account</a>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="copyright">
+                © 2026 BookHub. Student web project built with HTML, CSS and JavaScript.
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+    <!-- JavaScript Files -->
+    <script src="js/books.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>
